@@ -4,3 +4,4 @@ const toggle: boolean = true;
 const empty: null = null;
 const callback = (a: number) => { return 100 + a };
 
+
