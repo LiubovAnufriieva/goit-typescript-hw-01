@@ -12,7 +12,8 @@ function createOrUpdateUser(initialValues: Partial<User>): User {
     email: "",
     password: "",
   };
-  return { ...defaultUser, ...initialValues };
+  const newData = { ...defaultUser, ...initialValues };
+  return newData;
 }
 
 createOrUpdateUser({
